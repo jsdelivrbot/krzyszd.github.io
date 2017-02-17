@@ -1,7 +1,9 @@
 img {
-    width: 200px;
+    width: 250px;
 }
 body {
     text-align: center;
-    font-family: "Arial";
+    font-family: "Georgia";
+    color: DodgerBlue;
+    background-color: rgb(0, 105, 175)
 }
