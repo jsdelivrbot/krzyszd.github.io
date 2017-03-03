@@ -7,7 +7,7 @@ var numGroundSprites;
 var obstacles;
 
 var Gravity = 0.3;
-var jump = -5
+var jump = -5;
 
 var isGameOver;
 var score;
@@ -31,7 +31,6 @@ function setup() {
 }
 
 function draw() {
-    
     
     if (isGameOver) {
         background(0);
@@ -82,7 +81,7 @@ function draw() {
         obstacles.overlap(player, endGame);
     
         drawSprites();
-        score += 1
+        score += 1;
     
         textAlign(CENTER)
         text(score, camera.position.x, 10)
